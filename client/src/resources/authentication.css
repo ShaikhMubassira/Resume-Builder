@@ -1,0 +1,71 @@
+.auth-parent {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('../components/images/Background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.ant-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.auth-parent form {
+    width: 400px;
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    padding: 60px 30px;
+    background-color: white;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    opacity: 0.9;
+}
+
+.auth-parent h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.brand {
+    font-size: 70px !important;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.app-description {
+    position: absolute;
+    top: 15%;
+    right: 42%;
+    margin: 50px 20px !important;
+    padding: 100px !important;
+    width: 60% !important;
+    text-align: left !important;
+}
+
+.app-description p {
+    margin: 0 0 10px !important;
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+}
+
+.app-description ul {
+    padding-left: 20px !important;
+}
+
+.app-description ul li {
+    margin-bottom: 10px !important;
+    color: #555 !important;
+}
+

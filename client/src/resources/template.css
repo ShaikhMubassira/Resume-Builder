@@ -1,0 +1,120 @@
+/* Home Templates Styling */
+
+.home .template {
+    margin: 40px;
+    box-shadow: 0 0 3px gray;
+    padding: 25px;
+    position: relative;
+    width: 350px;
+}
+
+.home .template .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.home .template .text:hover {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .template button {
+    background-color: white !important;
+    color: black !important;
+    font-size: 16px !important;
+    padding: 0 20px !important;
+}
+
+
+/* Template-1 Styling */
+.template1-parent {
+    color: rgba(0, 0, 0, 0.699);
+    padding: 100px;
+}
+.template1-parent h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.template1-parent p {
+    padding-top: 0;
+    margin-top: 2px;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+}
+
+.template1-parent h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.template1-parent h6 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.template1-parent p {
+    margin: 0;
+    padding: 0;
+}
+
+.template1-parent h4 {
+    font-size: 20px;
+}
+
+/* Template-3 Stylings */
+.personal-info h1 {
+    margin-bottom: 10px;
+  }
+  
+  .objective, .education, .experience, .projects, .skills, .achievements, .awards {
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .section-header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .d-flex.align-items-center {
+    align-items: center;
+  }
+  
+  .me-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  
+  .mx-2 {
+    margin: 0 0.5rem;
+  }
+  
+  .separator {
+    margin: 0 10px;
+  }
+  

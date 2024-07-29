@@ -1,0 +1,37 @@
+.layout {
+    height: 100vh;
+    padding: 20px 50px;
+}
+.header {
+    height: 10%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.header h1 {
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 25px;
+}
+
+button {
+    border: 1px solid white !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 20px !important;
+    padding: 10px 20px !important;
+}
+a {
+    text-decoration: none !important;
+}
+.content {
+    height: 88%;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.8);
+    padding: 20px;
+    overflow: auto;
+}
