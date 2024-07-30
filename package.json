@@ -10,9 +10,14 @@
     "client-install": "npm install --prefix client",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
+<<<<<<< HEAD
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node server.js",
     "build": "npm run build --prefix client",
+=======
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "start": "node server.js",
+>>>>>>> e305c6443980fa81e90cb023c62f65cb3d7e3dcd
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
