@@ -31,6 +31,7 @@ function Register() {
   return (
     <div className="auth-parent">
       {loading && (<Spin size="large" />)}
+      <h3 className="welcome">Welcome To...</h3>
       <h1 className='brand'>SimpliCV</h1>
       <div className="app-description">
         <p>

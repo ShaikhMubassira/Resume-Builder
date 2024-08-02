@@ -34,7 +34,8 @@ function Login() {
   return (
     <div className="auth-parent">
       {loading && <Spin size="large" />}
-      <h1 className="brand">SimpliCV</h1>
+      <h3 className="welcome">Welcome Back...</h3>
+      <h1 className="brand">SimpliCV User</h1>
       <div className="app-description">
         <p>
           <strong>SimpliCV</strong> is a user-friendly resume builder
